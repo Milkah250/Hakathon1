@@ -54,9 +54,10 @@ const Contact = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
             <div className="space-y-4 text-foreground/80">
-              <p>Email: <a href="mailto:hello@example.com" className="text-primary hover:underline">hello@example.com</a></p>
-              <p>Location: San Francisco, CA</p>
-              <p>Availability: Full-time, Contract, Freelance</p>
+              <p>Phone: <a href="tel:0758599624" className="text-primary hover:underline">0758599624</a></p>
+              <p>Email: <a href="mailto:yannymumaraki@gmail.com" className="text-primary hover:underline">yannymumaraki@gmail.com</a></p>
+              <p>Location: Nairobi, Kenya</p>
+              <p>Availability: Full-time, Contract, Freelance, Internship, Attachment</p>
             </div>
             
             <div className="mt-8">
