@@ -11,7 +11,7 @@ const About = () => {
           <div className="order-2 lg:order-1">
             <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="mb-4">
-                Hello! I'm John, a passionate software developer with a 
+                Hello! I'm Elizabeth, a passionate software developer with a 
                 background in computer science and a love for creating elegant solutions to complex problems.
               </p>
               <p className="mb-4">
@@ -38,7 +38,11 @@ const About = () => {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80">
               <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-primary/40 to-primary/20"></div>
               <div className="absolute inset-2 rounded-lg bg-background flex items-center justify-center overflow-hidden">
-                <div className="text-6xl font-bold text-primary/10">About</div>
+                <img 
+                  src="/lovable-uploads/3179d109-0f13-4ca2-88c7-cc33f9fb4426.png" 
+                  alt="Elizabeth Wamalwa" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>

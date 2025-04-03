@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+
 const Hero = () => {
   return <section id="home" className="min-h-screen flex items-center justify-center pt-20">
       <div className="section-container">
@@ -27,8 +29,12 @@ const Hero = () => {
           <div className="hidden lg:block">
             <div className="relative w-full aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-primary/40 animate-pulse"></div>
-              <div className="absolute inset-2 rounded-full bg-background flex items-center justify-center">
-                <div className="text-9xl font-bold text-primary/20">JD</div>
+              <div className="absolute inset-2 rounded-full bg-background flex items-center justify-center overflow-hidden">
+                <img 
+                  src="/lovable-uploads/3179d109-0f13-4ca2-88c7-cc33f9fb4426.png" 
+                  alt="Elizabeth Wamalwa" 
+                  className="w-full h-full object-cover rounded-full"
+                />
               </div>
             </div>
           </div>
@@ -41,4 +47,5 @@ const Hero = () => {
       </div>
     </section>;
 };
+
 export default Hero;
