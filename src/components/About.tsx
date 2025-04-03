@@ -15,10 +15,10 @@ const About = () => {
                 background in computer science and a love for creating elegant solutions to complex problems.
               </p>
               <p className="mb-4">
-                My journey in tech began at <span className="highlight">University of Technology</span>, 
-                where I earned my degree in Computer Science. Since then, I've worked with various 
-                technologies and frameworks, constantly expanding my skillset and staying updated with 
-                industry trends.
+                My journey in tech began with <span className="highlight">Ajira program</span> and 
+                now I'm enrolled in <span className="highlight">Power Learn Project academy</span>. 
+                Since then, I've worked with various technologies and frameworks, constantly 
+                expanding my skillset and staying updated with industry trends.
               </p>
               <p className="mb-4">
                 Currently, I'm working at <span className="highlight">Tech Innovations Inc.</span> where I 
