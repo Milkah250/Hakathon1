@@ -1,20 +1,12 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section 
-      id="home" 
-      className="min-h-screen flex items-center justify-center pt-20"
-    >
+  return <section id="home" className="min-h-screen flex items-center justify-center pt-20">
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 animate-fade-in">
             <p className="text-primary font-medium">Hello, my name is</p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
-              John Doe
-            </h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">Elizabeth Wamalwa</h1>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-foreground/70">
               I build things for the web.
             </h2>
@@ -47,8 +39,6 @@ const Hero = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
