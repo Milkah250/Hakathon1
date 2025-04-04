@@ -13,6 +13,14 @@ interface ProjectProps {
 
 const projectsData: ProjectProps[] = [
   {
+    title: "Portfolio Website",
+    description: "A responsive personal portfolio website built with React, Tailwind CSS and shadcn/ui components. Features dark/light mode toggle and showcases projects and skills.",
+    tags: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+    liveLink: "#",
+    repoLink: "#",
+    image: "/placeholder.svg"
+  },
+  {
     title: "E-commerce Platform",
     description: "A full-stack e-commerce application with user authentication, product catalog, shopping cart, and payment processing integration.",
     tags: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
@@ -30,13 +38,6 @@ const projectsData: ProjectProps[] = [
     title: "Weather Dashboard",
     description: "An interactive weather application that displays current conditions and forecasts based on location, with data visualization.",
     tags: ["JavaScript", "Chart.js", "Weather API", "CSS"],
-    liveLink: "#",
-    repoLink: "#"
-  },
-  {
-    title: "Portfolio Website",
-    description: "A responsive personal portfolio website showcasing projects and skills with dark/light mode toggle.",
-    tags: ["React", "Tailwind CSS", "Framer Motion"],
     liveLink: "#",
     repoLink: "#"
   }
