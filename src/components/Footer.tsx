@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           
           <div className="text-sm text-foreground/60">
-            &copy; {currentYear} John Doe. All rights reserved.
+            &copy; {currentYear} MishYan. All rights reserved.
           </div>
           
           <div className="mt-4 md:mt-0">
