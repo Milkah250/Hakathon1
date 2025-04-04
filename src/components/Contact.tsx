@@ -1,5 +1,5 @@
 
-import { Send, Phone, Mail } from "lucide-react";
+import { Send, Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -66,7 +66,12 @@ const Contact = () => {
                 </span>
                 <a href="mailto:yannymumaraki@gmail.com" className="text-primary hover:underline">yannymumaraki@gmail.com</a>
               </p>
-              <p>Location: Nairobi, Kenya</p>
+              <p className="flex items-center gap-2">
+                <span className="bg-orange-500 p-2 rounded-full flex items-center justify-center">
+                  <MapPin className="h-4 w-4 text-white" />
+                </span>
+                <span>Location: Nairobi, Kenya</span>
+              </p>
               <p>Availability: Full-time, Contract, Freelance, Internship, Attachment</p>
             </div>
             
