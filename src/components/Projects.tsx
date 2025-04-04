@@ -38,11 +38,12 @@ const projectsData: ProjectProps[] = [
     detailedDescription: "This certificate represents my achievement in completing the Content Writing Training offered by the Ajira Digital Program under the Ministry of Labour & Social Protection from January 27th to 31st, 2025. The comprehensive program included five weeks of hands-on mentorship in content creation strategies and techniques. The course ran from February 13, 2025 to February 14, 2025 and is officially certified with the code TR28092914022025."
   },
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce application with user authentication, product catalog, shopping cart, and payment processing integration.",
-    tags: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-    liveLink: "#",
-    repoLink: "#"
+    title: "Coding",
+    description: "A database design project implementing SQL queries for creating tables, inserting data, and updating records in a student management system.",
+    tags: ["SQL", "Database Design", "Data Management"],
+    liveLink: "https://github.com/PLP-Database-Design/wk-3a-Milkah250",
+    repoLink: "https://github.com/PLP-Database-Design/wk-3a-Milkah250",
+    image: "/lovable-uploads/33116e82-12c9-40c6-a23f-f0e1e303f80a.png"
   },
   {
     title: "Task Management App",
